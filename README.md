@@ -1,0 +1,2 @@
+# HidingViews
+ViewModifier: `.isHidden(_:)`
