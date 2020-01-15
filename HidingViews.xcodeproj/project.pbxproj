@@ -61,11 +61,11 @@
 				F394F4C823CF009300549529 /* AppDelegate.swift */,
 				F394F4CA23CF009300549529 /* SceneDelegate.swift */,
 				F394F4CC23CF009300549529 /* ContentView.swift */,
+				F394F4DC23CF00E200549529 /* View-hidden().swift */,
 				F394F4CE23CF009400549529 /* Assets.xcassets */,
 				F394F4D323CF009400549529 /* LaunchScreen.storyboard */,
 				F394F4D623CF009400549529 /* Info.plist */,
 				F394F4D023CF009400549529 /* Preview Content */,
-				F394F4DC23CF00E200549529 /* View-hidden().swift */,
 			);
 			path = HidingViews;
 			sourceTree = "<group>";
