@@ -16,7 +16,7 @@ Or:
         
 ---
         
-If you are just interested in the code for `View-hidden().swift` to create the modifier, here it is:
+If you are just interested in the code for `View-hidden.swift` to create the modifier, here it is:
 
     import SwiftUI
 
@@ -43,7 +43,6 @@ If you are just interested in the code for `View-hidden().swift` to create the m
         func isHidden(_ hidden: Bool, remove: Bool = false) -> some View {
             modifier(HiddenModifier(isHidden: hidden, remove: remove))
         }
-
     }
 
 
@@ -52,15 +51,15 @@ If you are just interested in the code for `View-hidden().swift` to create the m
     /// Variables can be used in place so that the content can be changed dynamically.
     fileprivate struct HiddenModifier: ViewModifier {
 
-        fileprivate let isHidden: Bool
-        fileprivate let remove: Bool
+        private let isHidden: Bool
+        private let remove: Bool
 
         init(isHidden: Bool, remove: Bool = false) {
-            self.isHidden   = isHidden
-            self.remove     = remove
+            self.isHidden = isHidden
+            self.remove = remove
         }
 
-        fileprivate func body(content: Content) -> some View {
+        func body(content: Content) -> some View {
             Group {
                 if isHidden {
                     if remove {
