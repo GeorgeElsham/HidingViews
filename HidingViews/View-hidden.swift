@@ -31,7 +31,6 @@ extension View {
     func isHidden(_ hidden: Bool, remove: Bool = false) -> some View {
         modifier(HiddenModifier(isHidden: hidden, remove: remove))
     }
-    
 }
 
 
