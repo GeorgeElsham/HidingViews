@@ -13,7 +13,7 @@
 		F394F4CF23CF009400549529 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F394F4CE23CF009400549529 /* Assets.xcassets */; };
 		F394F4D223CF009400549529 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F394F4D123CF009400549529 /* Preview Assets.xcassets */; };
 		F394F4D523CF009400549529 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F394F4D323CF009400549529 /* LaunchScreen.storyboard */; };
-		F394F4DD23CF00E200549529 /* View-hidden().swift in Sources */ = {isa = PBXBuildFile; fileRef = F394F4DC23CF00E200549529 /* View-hidden().swift */; };
+		F394F4DD23CF00E200549529 /* View-hidden.swift in Sources */ = {isa = PBXBuildFile; fileRef = F394F4DC23CF00E200549529 /* View-hidden.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,7 +25,7 @@
 		F394F4D123CF009400549529 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		F394F4D423CF009400549529 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F394F4D623CF009400549529 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F394F4DC23CF00E200549529 /* View-hidden().swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View-hidden().swift"; sourceTree = "<group>"; };
+		F394F4DC23CF00E200549529 /* View-hidden.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View-hidden.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,7 +61,7 @@
 				F394F4C823CF009300549529 /* AppDelegate.swift */,
 				F394F4CA23CF009300549529 /* SceneDelegate.swift */,
 				F394F4CC23CF009300549529 /* ContentView.swift */,
-				F394F4DC23CF00E200549529 /* View-hidden().swift */,
+				F394F4DC23CF00E200549529 /* View-hidden.swift */,
 				F394F4CE23CF009400549529 /* Assets.xcassets */,
 				F394F4D323CF009400549529 /* LaunchScreen.storyboard */,
 				F394F4D623CF009400549529 /* Info.plist */,
@@ -152,7 +152,7 @@
 				F394F4C923CF009300549529 /* AppDelegate.swift in Sources */,
 				F394F4CB23CF009300549529 /* SceneDelegate.swift in Sources */,
 				F394F4CD23CF009300549529 /* ContentView.swift in Sources */,
-				F394F4DD23CF00E200549529 /* View-hidden().swift in Sources */,
+				F394F4DD23CF00E200549529 /* View-hidden.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

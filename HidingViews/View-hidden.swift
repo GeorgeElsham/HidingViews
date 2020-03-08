@@ -1,5 +1,5 @@
 //
-//  View-hidden().swift
+//  View-hidden.swift
 //  HidingViews
 //
 //  Created by George Elsham on 15/01/2020.
@@ -40,15 +40,15 @@ extension View {
 /// Variables can be used in place so that the content can be changed dynamically.
 fileprivate struct HiddenModifier: ViewModifier {
     
-    fileprivate let isHidden: Bool
-    fileprivate let remove: Bool
+    private let isHidden: Bool
+    private let remove: Bool
     
     init(isHidden: Bool, remove: Bool = false) {
-        self.isHidden   = isHidden
-        self.remove     = remove
+        self.isHidden = isHidden
+        self.remove = remove
     }
     
-    fileprivate func body(content: Content) -> some View {
+    func body(content: Content) -> some View {
         Group {
             if isHidden {
                 if remove {
